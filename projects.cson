@@ -1,0 +1,16 @@
+[
+  {
+    title: "Sahara"
+    group: "lws"
+    paths: [
+      "/Users/carl/source/liwushuo/sahara"
+    ]
+  }
+  {
+    title: "Giftpack"
+    group: "lws"
+    paths: [
+      "/Users/carl/source/liwushuo/giftpack"
+    ]
+  }
+]

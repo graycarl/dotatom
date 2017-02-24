@@ -1,0 +1,39 @@
+"*":
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "vim-mode-plus"
+      "activate-power-mode"
+      "minimap"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "*.pyc"
+      "__pycache__"
+    ]
+    projectHome: "/Users/carl/source"
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontFamily: "'M+ 2m'"
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "65248596-8647-4142-3b4d-9b0a6a9ca1af"
+  "linter-flake8":
+    executablePath: "$PROJECT/venv/bin/flake8;/usr/local/bin/flake8"
+  minimap: {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
