@@ -4,7 +4,6 @@
   core:
     disabledPackages: [
       "vim-mode-plus"
-      "activate-power-mode"
       "minimap"
     ]
     ignoredNames: [
@@ -18,6 +17,10 @@
       "*.pyc"
       "__pycache__"
     ]
+    packagesWithKeymapsDisabled: [
+      "git-blame"
+      "emmet"
+    ]
     projectHome: "/Users/carl/source"
     telemetryConsent: "no"
     themes: [
@@ -28,10 +31,17 @@
     fontFamily: "'M+ 2m'"
     invisibles: {}
     tabLength: 4
+  emmet: {}
   "exception-reporting":
     userId: "65248596-8647-4142-3b4d-9b0a6a9ca1af"
+  "git-blame": {}
+  linter:
+    lintOnFly: false
   "linter-flake8":
     executablePath: "$PROJECT/venv/bin/flake8;/usr/local/bin/flake8"
+    projectConfigFile: [
+      ".flake8rc"
+    ]
   minimap: {}
   "tree-view":
     hideIgnoredNames: true
