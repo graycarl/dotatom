@@ -1,0 +1,8 @@
+autocomplete-python
+emmet
+intentions
+project-manager
+git-plus
+language-matlab-octave
+linter-flake8
+pdf-view
