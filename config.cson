@@ -1,6 +1,8 @@
 "*":
   "autocomplete-python":
+    pythonPaths: "$PROJECT/.venv/bin/python;/usr/local/bin/python"
     useKite: false
+  "bracket-matcher": {}
   core:
     disabledPackages: [
       "vim-mode-plus"
@@ -28,7 +30,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontFamily: "'M+ 2m'"
+    fontFamily: "'M+ 1m'"
     invisibles: {}
     tabLength: 4
   emmet: {}
@@ -36,12 +38,14 @@
     userId: "65248596-8647-4142-3b4d-9b0a6a9ca1af"
   "git-blame": {}
   linter:
-    lintOnFly: false
+    lintOnChangeInterval: 500
   "linter-flake8":
-    executablePath: "$PROJECT/venv/bin/flake8;/usr/local/bin/flake8"
+    executablePath: "$PROJECT/.venv/bin/flake8;/usr/local/bin/flake8"
+    maxLineLength: 120
     projectConfigFile: [
       ".flake8rc"
     ]
+  "linter-ui-default": {}
   minimap: {}
   "tree-view":
     hideIgnoredNames: true

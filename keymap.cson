@@ -38,4 +38,4 @@
 
 # Disable the default emmet key bindings, only leave the tab binding
 'atom-text-editor[data-grammar~="html"]:not([mini]), atom-text-editor[data-grammar~="erb"]:not([mini]), atom-text-editor[data-grammar~="jade"]:not([mini]), atom-text-editor[data-grammar~="css"]:not([mini]), atom-text-editor[data-grammar~="stylus"]:not([mini]), atom-text-editor[data-grammar~="sass"]:not([mini]), atom-text-editor[data-grammar~="scss"]:not([mini])':
-  'tab': 'emmet:expand-abbreviation-with-tab'
+  'cmd-k tab': 'emmet:expand-abbreviation-with-tab'
